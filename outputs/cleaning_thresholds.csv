@@ -1,0 +1,9 @@
+statistic,value,note
+Maximum distance in raw file (mi),269097.48,all payment types; Parquet footer
+Maximum distance in January card trips (mi),98773.58,after card and date filters
+Card-trip distance 99.99th percentile (mi),53.6,threshold 100 mi
+January card trips with distance > threshold,18.0,flagged
+duration 99.9th percentile (min),138.83333333333334,threshold 180 min
+trips with duration <= 0 min,39195.0,flagged
+trips with fare < 0,267.0,flagged
+trips with fare > threshold,4.0,threshold $500

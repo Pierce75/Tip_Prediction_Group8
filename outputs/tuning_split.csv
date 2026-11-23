@@ -1,0 +1,3 @@
+split,full_rows,tuning_rows,tuning_tip_rate
+train,1224797,200000,0.903595
+validation,534239,100000,0.91126

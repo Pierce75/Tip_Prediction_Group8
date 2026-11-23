@@ -1,0 +1,10 @@
+step,rows_after,removed
+Raw file (from Parquet footer),3724889,0
+"Card payments only (drops cash, Flex Fare, disputes)",2249747,1475142
+Pickup in 2026-01 (drops Dec/Feb spill-over),2249744,3
+trip_distance > 0,2231495,18249
+trip_distance <= 100 mi (meter errors),2231477,18
+0 < fare_amount <= 500,2231413,64
+1 <= duration <= 180 min,2186541,44872
+average speed <= 80 mph,2186454,87
+tip_amount >= 0,2186454,0

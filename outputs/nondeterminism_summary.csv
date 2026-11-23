@@ -1,0 +1,3 @@
+source,before,fix,after
+Worker completion order,3 distinct orders; 3 floating-point totals in 3 runs,Tag each shard and sort by day before reducing.,One order and one total in 3 runs.
+Unseeded random search,Two runs produced different trial tables.,Generate independent and repeatable per-trial seeds.,Two seeded runs produced identical trial tables.

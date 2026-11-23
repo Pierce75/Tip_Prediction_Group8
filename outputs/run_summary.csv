@@ -1,0 +1,24 @@
+setting,value
+total notebook run time (s),216.5
+execution host,Local execution environment
+hardware,AMD EPYC 9V45 96-Core Processor; 8 available logical CPUs
+usable_cpus,8
+GPU,Not used; CPU workload
+slurm job,-
+python,3.12.14
+data,yellow_tripdata_2026-01.parquet
+data sha256,8b3933fe6f0d7b6d8826613c0dd724edc680ff7c49e2bd4c7635c05102728637
+rows raw,3724889
+rows kept,2186454
+shards,31
+workers,"1, 2, 4, 8"
+benchmark repeats,3
+target,Recorded tip > 0 on card trips
+model,Logistic regression
+selected C,0.1
+selected class weight,balanced
+validation ROC-AUC,0.8362942085093688
+aggregate verification,Passed
+feature equivalence,Passed
+search equivalence,Passed
+seeded repeatability,Passed
